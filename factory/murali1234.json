@@ -1,0 +1,9 @@
+{
+	"name": "murali1234",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd8bd48b-25f6-4580-ac36-9364b8179aec",
+		"tenantId": "2d1ea684-8b47-41c9-a580-011ccdbb4953"
+	}
+}
