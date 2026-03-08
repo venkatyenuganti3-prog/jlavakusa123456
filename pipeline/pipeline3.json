@@ -1,10 +1,10 @@
 {
-	"name": "tulasiram1234",
+	"name": "pipeline3",
 	"properties": {
 		"activities": [
 			{
-				"name": "copy activity5",
-				"description": "i need copy data from 1activity to another",
+				"name": "copy actiivity1",
+				"description": "i need copy data from 1container to other",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -40,40 +40,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ADLSSourceLinkedService",
+						"referenceName": "ADLSSourceLinkedServicee",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Json1",
-						"type": "DatasetReference"
-					}
-				]
-			},
-			{
-				"name": "Copy data1",
-				"type": "Copy",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
-					},
-					"enableStaging": false
-				},
-				"outputs": [
-					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "Json3",
 						"type": "DatasetReference"
 					}
 				]
