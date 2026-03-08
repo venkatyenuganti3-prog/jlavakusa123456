@@ -10,37 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "targetcontainer123"
+				"fileSystem": "targetdatabase"
 			}
 		},
-		"schema": {
-			"type": "object",
-			"properties": {
-				"OrderID": {
-					"type": "string"
-				},
-				"CustomerName": {
-					"type": "string"
-				},
-				"City": {
-					"type": "string"
-				},
-				"Product": {
-					"type": "string"
-				},
-				"Quantity": {
-					"type": "string"
-				},
-				"Price_per_Unit": {
-					"type": "string"
-				},
-				"Total_Amount": {
-					"type": "string"
-				},
-				"Order_Date": {
-					"type": "string"
-				}
-			}
-		}
-	}
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
