@@ -1,0 +1,9 @@
+{
+	"name": "paniayyipoyindi1234",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cd8d5735-ab2b-4782-a483-75f7256190be",
+		"tenantId": "2d1ea684-8b47-41c9-a580-011ccdbb4953"
+	}
+}
